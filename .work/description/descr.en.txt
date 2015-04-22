@@ -1,0 +1,16 @@
+Extension for Extensions Developers.
+
+Use shortcut (Alt-Z by default) or context menu on any tab to reload enabled unpacked extensions.
+
+Pros:
+
+- Quick reload with context menu or shortcut (Alt-Z by default but you can change)
+- Reload only enabled extensions
+- Ability to to reload active tab (see Extension option page). It useful for content script extensions development.
+- Ability to turn off reload from context menu (see Extension option page)
+
+Contras:
+
+- It closes the background debugger window. No public API to reopen :(
+
+Source code - https://github.com/onikienko/dev-extensions-reload/

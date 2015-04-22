@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>{{extName}}</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+    <link rel="stylesheet" type="text/css" href="lib/jsTabs/tabs.css">
+</head>
+<body>
+
+<div id=message_place>
+    <span id="error">{{o_error}}</span>
+    <span id="success">{{o_saved}}</span>
+</div>
+
+<div id="page">
+    <header>
+        <img src="img/ext_icons/48.png" title="{{extDescr}}" width="48" height="48">
+        <strong>{{extName}}</strong>
+    </header>
+
+    <section id="main_tabs" class="tabs">
+        <ul class="tabs_nav">
+            <li><a href="#main">{{o_tabs_main}}</a></li>
+            <li><a href="#about">{{o_tabs_help}}</a></li>
+        </ul>
+
+        <div class="tabs_content">
+
+            <div id="main">
+                <p><label><input type="checkbox" data-storage="reload_tabs"/>{{ o_reload_tabs }}</label></p>
+                <p><label><input type="checkbox" data-storage="context_menu"/>{{ o_context_menu }}</label></p>
+                <hr>
+                <div class="tips">
+                    <h3>{{o_tips_header}}</h3>
+                    <p>{{o_tips_p}}</p>
+                </div>
+            </div>
+
+            <div id="about">
+                <dl>
+                    <dt>Source:</dt>
+                    <dd><a href="https://github.com/onikienko/dev-extensions-reload">GitHub</a></dd>
+                    <dt>Contacts:</dt>
+                    <dd><a href="mailto:michael.onikienko@gmail.com">michael.onikienko@gmail.com</a>
+                        <br>
+                        <a href="http://onikienko.pp.ua">onikienko.pp.ua</a>
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">
+            &nbsp;by <a href="http://onikienko.pp.ua" target="_blank">Michael Onikienko</a>
+            &nbsp;&nbsp; <3 <span id="ua_flag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </p>
+    </footer>
+</div>
+
+<script src="js/helpers/localizer.js"></script>
+<script src="lib/jsTabs/tabs.js"></script>
+
+<script src="js/storage.js"></script>
+<script src="js/helpers/quick_options.js"></script>
+<script src="js/options.js"></script>
+
+</body>
+</html>
