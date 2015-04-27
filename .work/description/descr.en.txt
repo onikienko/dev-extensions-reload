@@ -4,10 +4,11 @@ Use shortcut (Alt-Z by default) or context menu on any tab to reload enabled unp
 
 Pros:
 
-- Quick reload with context menu or shortcut (Alt-Z by default but you can change)
+- Quick reload with context menu or shortcut (Alt-Z by default but you can change.  See Options page for instructions)
 - Reload only enabled extensions
-- Ability to to reload active tab (see Extension option page). It useful for content script extensions development.
-- Ability to turn off reload from context menu (see Extension option page)
+- If Options page is open also restart it
+- Ability to reload active tab (see Options page). It useful for content script extensions development.
+- Ability to turn off reload from context menu (see Options page)
 
 Contras:
 

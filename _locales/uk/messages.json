@@ -29,15 +29,31 @@
         "description": ""
     },
     "o_context_menu": {
-        "message": "Показувати 'Перезавантажити dev розширення' в контекстному меню Chrome. (Щоб задіяти зміни, розширення буде автоматично перезавантажене)",
+        "message": "Показувати 'Перезавантажити dev розширення' в контекстному меню. (Щоб задіяти зміни, розширення буде автоматично перезавантажене)",
         "description": ""
     },
     "o_tips_header": {
         "message": "Якщо комбінація клавіш за замовчанням (Alt+Z) не працює або треба задати свою комбінацію клавіш",
         "description": ""
     },
-    "o_tips_p": {
-        "message": "Перейди на сторінку всіх розширень. Натисни посилання 'Комбінації клавіш', найди 'Dev extensions reload' і встанови бажану комбінацію.",
+    "o_tips_goTo": {
+        "message": "Перейди до ",
+        "description": ""
+    },
+    "o_tips_ks": {
+        "message": "Комбінацій клавіш",
+        "description": ""
+    },
+    "o_tips_operaDev": {
+        "message": "для Opera Next і Developer",
+        "description": ""
+    },
+    "o_tips_operaDevLink": {
+        "message": "перейди за цим посиланням",
+        "description": ""
+    },
+    "o_tips_find": {
+        "message": "Знайди 'Dev extensions reload' і встанови свою комбінацію.",
         "description": ""
     },
 

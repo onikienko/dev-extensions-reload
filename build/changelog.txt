@@ -1,2 +1,5 @@
+1.1 (27.04.2015 10:35)
+	- if options page is open also restart it
+	- links to Extensions keyboard shortcuts 
 1.0 (22.04.2015 15:34)
 	Initial release

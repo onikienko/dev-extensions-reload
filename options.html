@@ -29,11 +29,20 @@
 
             <div id="main">
                 <p><label><input type="checkbox" data-storage="reload_tabs"/>{{ o_reload_tabs }}</label></p>
+
                 <p><label><input type="checkbox" data-storage="context_menu"/>{{ o_context_menu }}</label></p>
                 <hr>
                 <div class="tips">
                     <h3>{{o_tips_header}}</h3>
-                    <p>{{o_tips_p}}</p>
+
+                    <p id="linker">{{o_tips_goTo}} <a id="ks_link" href="">{{o_tips_ks}}</a>
+                        <span id="opera_next">
+                            ({{o_tips_operaDev}}
+                            <a id="opera_next_link" href="opera://settings/configureCommands">
+                                {{o_tips_operaDevLink}}
+                            </a>)
+                        </span>. {{o_tips_find}}
+                    </p>
                 </div>
             </div>
 

@@ -36,8 +36,24 @@
         "message": "If default shortcut (Alt+Z) do not work or if you want to change shortcut",
         "description": ""
     },
-    "o_tips_p": {
-        "message": "Go to Browser Extensions Page. Scroll down the page and click 'Keyboard shortcuts' link at the end of the page. Find 'Dev extensions reload' and specify your own shortcut.",
+    "o_tips_goTo": {
+        "message": "Go to",
+        "description": ""
+    },
+    "o_tips_ks": {
+        "message": "Keyboard shortcuts",
+        "description": ""
+    },
+    "o_tips_operaDev": {
+        "message": "for Opera Next and Developer",
+        "description": ""
+    },
+    "o_tips_operaDevLink": {
+        "message": "use this link",
+        "description": ""
+    },
+    "o_tips_find": {
+        "message": "Find 'Dev extensions reload' and specify your own shortcut.",
         "description": ""
     },
 

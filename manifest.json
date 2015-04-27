@@ -1,7 +1,7 @@
 {
     "name": "__MSG_extName__",
     "description": "__MSG_extDescr__",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
     "author": "Michael Onikienko",
 
@@ -21,10 +21,7 @@
         "reload_dev_extensions": {
             "description": "__MSG_extDescr__",
             "suggested_key": {
-                "default": "Alt+Z",
-                "linux": "Alt+Z",
-                "mac": "MacCtrl+Shift+Z",
-                "windows": "Alt+Z"
+                "default": "Alt+Z"
             }
         }
     },
