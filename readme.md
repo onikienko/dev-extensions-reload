@@ -1,6 +1,8 @@
 Dev Extensions Reload
 ---------------------
 
+![](https://raw.githubusercontent.com/onikienko/dev-extensions-reload/master/img/ext_icons/128.png)
+
 Chromium (Chrome and Opera) extension for extensions developers.
 
 Reload enabled development extensions with shortcut (Alt-Z by default) or from context menu.
